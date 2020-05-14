@@ -1,6 +1,7 @@
 
 document.getElementById("save3").onclick=function(){
 	
+	document.getElementById("mytb").style.display="block"
 	
 	if (typeof(Storage) !== "undefined") {
 		if(localStorage.textEntered!==null){
